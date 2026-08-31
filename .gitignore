@@ -1,29 +1,15 @@
-# Local Netlify folder
+# Netlify
 .netlify
 
-# Node
+# Dependencies
 node_modules
 
 # Build output
 dist
 
-# Local environment / secrets (problemas no GitHub!)
+# Environment secrets
 .env
 .env.*
-!.env.example
 
-# Backups locais
-backups/
-
-# Logs locais de dev/preview
+# Logs
 *.log
-dev-server.log
-preview.log
-preview.err.log
-
-# Pastas corrompidas aguardando exclusão manual (apos chkdsk no reboot)
-node_modules_corrompido/
-.netlify/plugins_corrompido/
-
-# Lock/Cache do Netlify CLI (Edge Functions) - regenerado
-deno.lock
